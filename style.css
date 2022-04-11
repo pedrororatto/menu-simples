@@ -1,0 +1,91 @@
+/* principal */
+
+body{
+	font-family: 'Montserrat', sans-serif;
+    background-image: url(fundo.jpg);
+}
+
+.caixa{
+    display: inline-block;
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 25%;
+    text-align: center;
+    background-color: #CCCCCC;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+h1{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Cardápio*/
+
+.comidas{
+    text-align: center;
+    background: #CCCCCC;
+    position: absolute;
+    margin-left: 25% ;
+    width: 612px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.comidas li{
+    display:inline-block;
+}
+
+.entrada, .sobremesa{
+    float: left;
+    margin:10px 20px 20px 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.principal{
+    float: right;
+    margin:10px 15px 20px 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.sobremesa{
+    float: left;
+    margin:10px 20px 20px 32px;
+    width: 250px;
+    height: 250px;
+}
+
+.tituloh2{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-bottom: 1.5em;
+    text-decoration: underline;
+}
+
+.comidas p{
+    padding-top: 15px;
+    text-align: left;
+    margin-top: 2em;
+}    
+.texto-entrada{
+    line-height: 1.5em;
+}
+
+.texto-principal{
+    margin-right: 2px; 
+    margin-left: 10px;   
+    line-height: 1.5em;
+} 
+
+.texto-sobremesa{
+    line-height: 1.5em;
+}
